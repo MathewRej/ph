@@ -1,0 +1,24 @@
+.amain-div{
+    height: 100%;
+    min-height: 400px;
+    background-color: rgb(0, 0, 0);
+    width: 100%;
+    color: rgb(214, 214, 214);
+    margin-top: 2rem;
+}
+.about-c{
+    
+}
+.about-c h2{
+    /* text-decoration: underline; */
+    padding-top: 5rem;
+    letter-spacing: 8px;
+    color: #747474;
+    padding-left: 3rem;
+
+}
+.about-c p{
+    color: #626262;
+    padding: 3rem;
+    line-height: 30px;
+}

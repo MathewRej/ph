@@ -1,0 +1,141 @@
+.packagesmain-div{
+    width: 100%;
+    height: 100%;
+    /* min-height: ; */
+    background-color: rgb(0, 0, 0);
+    /* padding-bottom: 5rem; */
+}
+.packages-c{
+    padding-bottom: 5rem;
+}
+.packages-c h2{
+    padding-top: 3rem;
+    letter-spacing: 8px;
+    color: #747474;
+    padding-left: 3rem;
+    padding-bottom: 2rem;
+}
+.p-card{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.p-150000 :hover{
+    
+}
+.hover-c{
+    background-color: white;
+    position: absolute;
+    z-index: 99;
+    top: 20%;
+    flex-direction: column;
+    display: flex;
+    box-shadow: 4px 4px 5px rgb(15, 81, 194); 
+
+    border-radius: 26px;
+    padding: 10px;
+
+}
+.hover-c1{
+    background-color: white;
+    position: absolute;
+    z-index: 99;
+    top: 20%;
+    flex-direction: column;
+    display: flex;
+    box-shadow: 4px 4px 5px rgb(15, 81, 194); 
+
+    border-radius: 26px;
+    padding: 10px;
+
+}
+.hover-c1 p {
+    font-size: 12px;
+}
+.hover-c2{
+    background-color: white;
+    position: absolute;
+    z-index: 99;
+    top: 20%;
+    flex-direction: column;
+    display: flex;
+    box-shadow: 4px 4px 5px rgb(15, 81, 194); 
+    border-radius: 26px;
+    padding: 10px;
+
+}
+.hover-c2 p{
+    font-size: 12px;
+}
+.hover-c3{
+    background-color: white;
+    position: absolute;
+    z-index: 99;
+    top: 20%;
+    flex-direction: column;
+    display: flex;
+    box-shadow: 4px 4px 5px rgb(15, 81, 194); 
+    border-radius: 26px;
+    padding: 10px;
+
+}
+.hover-c3 p{
+    font-size: 12px;
+}
+.hover-c4{
+    background-color: white;
+    position: absolute;
+    z-index: 99;
+    top: 20%;
+    flex-direction: column;
+    display: flex;
+    box-shadow: 4px 4px 5px rgb(15, 81, 194); 
+    border-radius: 26px;
+    padding: 10px;
+
+}
+.hover-c4 p {
+    font-size: 12px;
+}
+.hover-c p{
+    font-size: 12px;
+}
+
+@media (max-width: 1762px){
+    .hover-c4{
+        top: 55%;
+    }
+}
+@media (max-width: 1409px){
+    .hover-c3{
+        top: 55%;
+    }
+    
+}
+@media (max-width: 1057px){
+    .hover-c2{
+        top: 40%;
+    }
+    .hover-c4{
+        top: 70%;
+    }
+}
+@media (max-width: 563px){
+    .hover-c2{
+        top: 45%;
+    }
+    .hover-c{
+        top: 5%;
+    }
+    .hover-c1{
+        top: 25%;
+    }
+    .hover-c3{
+        top: 61%;
+    }
+    .hover-c4{
+        top: 80%;
+    }
+}
+              

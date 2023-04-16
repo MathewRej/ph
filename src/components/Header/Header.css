@@ -1,0 +1,247 @@
+.hmain-div {
+    width: 100%;
+    height: 900px;
+    min-height: 320px;
+    box-shadow: 0px 2px 10px white;
+    border-radius: 50px;
+    margin: auto;
+    
+
+}
+
+.nav-items{
+    display: flex;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    background-color: black;
+    z-index: 99;
+    width: 80%;
+    margin: auto;
+    justify-content: space-between;
+    align-items: center;
+}
+@media  (max-width: 768px) {
+    .nav-items{
+        width: 100%;
+    }
+    .hmain-div{
+        height: 700px;
+        padding: 1rem;
+    }
+}
+@keyframes mymove {
+    from {
+        top: 0px;
+    }
+
+    to {
+        top: 200px;
+    }
+}
+
+.hmain-div h1 {
+    position: relative;
+    animation: mymove 5s ;
+}
+
+.hnav-div {
+    /* padding: 20px; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.hnav-div span {
+    color: white;
+    padding: 2rem;
+}
+
+.hnav-div1 {
+    padding: 20px;
+    display: flex;
+    align-items: center;
+}
+.hnav-div1 img{
+    height: 40px;
+    width: 100px;
+    /* padding-bottom: 10px; */
+}
+.hnav-div1 p{
+    font-size: 20px;
+    letter-spacing: 6px;
+    font-weight: bolder;
+    margin: 0px !important;
+    padding-top: 15px;
+}
+.content-div{
+    display: flex;
+}
+.hnav-div2 {
+    /* padding: 20px; */
+    display: flex;
+    width: 40%;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 30px;
+}
+@media only screen and (max-width: 768px){
+    .hnav-div2{
+        display: none;
+    }
+}
+.aa :hover{
+    font-size: 20px !important;
+}
+.hnav-div2 a {
+    font-size: 14px;
+    cursor: pointer;
+    color: white;
+    text-decoration: none;
+}
+
+.nav-drawer{
+    display: flex;
+    justify-content: end;
+}
+
+
+@media only screen and (min-width: 769px) {
+    .menu-icon {
+        display: none;
+    }   
+    
+}
+.drawer{
+    
+    /* border-radius: 50px; */
+    
+    transform: translateX(0);  
+    
+}
+
+.drawer a{
+    padding: 25px;
+    color: white;
+    text-decoration: none;
+}
+.drawer a:hover{
+    background-color: rgb(37 36 36);
+}
+
+.drawer{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    background-color: black;
+    width: 180px;
+    position: fixed;
+    z-index: 999;
+    padding-top: 3rem;
+    right: 0;
+    top: 0;
+    box-shadow: 0px 2px 3px 1px white;
+    transition: all .5s ease; 
+}
+
+.drawer-notactive{
+    display: flex;
+    transition: all .5s ease; 
+    transform: translateX(115%);  
+} 
+@media only screen and (max-width: 768px){
+    .drawer-notactive{
+        /* display: none; */
+        transition: all .5s ease; 
+        transform: translateX(115%);  
+    } 
+}
+.drawer span{
+    display: flex;
+    justify-content: end;
+}
+.ph-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+}
+.ph-div img{
+    /* height: 100%; */
+    width: 50%;
+    object-fit: contain;
+    margin: auto;
+    display: block;
+}
+@media (max-width: 375px){
+    .ph-div img{
+        width: 70%;
+    }
+}
+.photoman-div{
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    position: relative;
+    top: 60px;
+    /* align-items: center; */
+
+}
+.photoman-div p{
+    font-size: 20px;
+}
+.photoman-space{
+    height: 25px;
+    width: 2px;
+    background-color: white;
+}
+.photoman-ph{
+    animation-name: slidingLeft;
+    animation-duration: 4s;
+}
+@keyframes slidingLeft{
+    0%   { transform: translateX(-100%);}
+    50%   { transform: translateX(-30%);}
+    100% { transform: translateX(0%);}
+}
+.photoman-vi{
+    animation-name: slidingRight;
+    animation-duration: 4s;
+}
+@keyframes slidingRight{
+    0%   { transform: translateX(100%);}
+    50%   { transform: translateX(30%);}
+    100% { transform: translateX(0%);}
+}
+.photoman-space{
+    animation-name: appearer;
+    animation-duration: 6s;
+}
+
+@keyframes appearer{
+    0%{opacity: 0;}
+    100%{opacity: 1;}
+}
+@media (max-width: 350px){
+    .photoman-div{
+        display: flex;
+        flex-direction: column;
+        justify-content:center ;
+        align-items: center;
+        gap: 0px;
+    }
+    .photoman-space{
+        display: none;
+    }
+    .menu-icon span{
+        padding-left: 5px;
+    }
+}
+@media (max-width: 320px) {
+    .nav-items{
+        justify-content: center;
+    }
+}
